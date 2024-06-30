@@ -1,0 +1,100 @@
+*{
+    font-family: Roboto , sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#02c0c0;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    color: aliceblue;
+    font-weight: 800;
+    display: flex;
+    font-size: 40px;
+    
+}
+
+hr{ 
+
+ color: aliceblue;
+  border: 1px solid;
+  margin: 10px;
+}
+
+#container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+
+
+}
+
+#imgsalario{
+    display: flex;
+    position: relative;
+    right: 160px;
+    top: 46px;    
+}
+
+#imgdias{
+    display: flex;
+    position:relative;
+    right: 160px;
+    top: 46px;
+}
+
+#imghoras{
+    display: flex;
+    position: relative;
+    right: 160px;
+    top: 46px;
+}
+
+input{
+    height:40px;
+    width: 250px;
+    border-radius: 129px;
+    font-weight: 600;
+    border: 1px solid white;
+    
+}
+
+::placeholder{
+    color: #3d38389f;
+}
+ 
+#calcularo {
+    color: #02c0c0;
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+.hide{
+    display: none;
+}
+
+#mensagem{
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-content: center;
+    border: 3px solid #3d38389f;
+    background-color: aliceblue;
+    color: #02c0c0;
+    border-radius: 20px;
+    height: 30px;
+}
